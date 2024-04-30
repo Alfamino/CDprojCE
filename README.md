@@ -6,6 +6,7 @@ The solution for the project.
 
 * *run_analysis.R* the script that transform the data, the comments are added to the code.
 * *code_book.txt* the sample codebook that can be used to the merged *tab_all* that I generated.
+* *t.txt* tiny data set
 
 Repository do not contain the actual data set.
 
