@@ -1,0 +1,359 @@
+DATA DICTIONARY
+
+subject                       
+		integer from 1 to 30
+		The number of the participant.
+		
+activity                      
+		string representing the activity:
+		walking
+		walking upstairs
+		walking downstairs
+		sitting
+		standing
+		laying
+		
+tBodyAcc-mean()-X             
+		Mean of Total Body Acceleration in X axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+tBodyAcc-mean()-Y             
+		Mean of Total Body Acceleration in Y axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAcc-mean()-Z             
+		Mean of Total Body Acceleration in Z axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyAcc-std()-X              
+		Standard deviation of Total Body Acceleration in X axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+tBodyAcc-std()-Y              
+		Standard deviation of Total Body Acceleration in Y axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+tBodyAcc-std()-Z              
+		Standard deviation of Total Body Acceleration in Z axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+tGravityAcc-mean()-X          
+		Mean of Total Gravity Acceleration in X axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tGravityAcc-mean()-Y          
+		Mean of Total Gravity Acceleration in Y axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tGravityAcc-mean()-Z          
+		Mean of Total Gravity Acceleration in Z axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tGravityAcc-std()-X    
+		Mean of Total Gravity Acceleration in X axis.
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tGravityAcc-std()-Y 
+		Value in Y axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tGravityAcc-std()-Z           
+		Value in Z axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerk-mean()-X  
+		Value in X axis
+		Mean of 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerk-mean()-Y         
+		Value in Y axis
+		Mean of 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerk-mean()-Z   
+		Value in Z axis
+		Mean of
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerk-std()-X          
+		Value in X axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerk-std()-Y  
+		Value in Y axis
+		Standard deviation of        
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyAccJerk-std()-Z    
+		Value in Z axis
+		Standard deviation of      
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyro-mean()-X            
+		Value in X axis
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyro-mean()-Y  
+		Value in Y axis          
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyro-mean()-Z   
+		Value in Z axis
+		Mean of time body gyroskop       
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+tBodyGyro-std()-X   
+		Value in X axis
+		Standard deviation of          
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyro-std()-Y 
+		Value in Y axis
+		Standard deviation of           
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyro-std()-Z  
+		Standard deviation of           
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyroJerk-mean()-X  
+		Mean of       
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyroJerk-mean()-Y 
+		Mean of        
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroJerk-mean()-Z  
+		Mean of       
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyroJerk-std()-X  
+		Standard deviation of       
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyGyroJerk-std()-Y         
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroJerk-std()-Z         
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyAccMag-mean()  
+		Mean of           
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+tBodyAccMag-std()             
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tGravityAccMag-mean() 
+		Mean of         
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tGravityAccMag-std()  
+		Standard deviation of        
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerkMag-mean() 
+		Mean of        
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyAccJerkMag-std()         
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroMag-mean()           
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroMag-std()            
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroJerkMag-mean() 
+		Mean of       
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+tBodyGyroJerkMag-std()        
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-mean()-X   
+		Mean of           
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-mean()-Y       
+		Mean of       
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-mean()-Z  
+		Mean of            
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+fBodyAcc-std()-X  
+		Standard deviation of            
+		Float number representing a feature normalized and bounded within [-1,1] interval  
+		
+fBodyAcc-std()-Y  
+		Standard deviation of Body Acceleration                 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-std()-Z  
+		Standard deviation of Body Acceleration                 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-meanFreq()-X   
+		Mean frequency of Body Acceleration            
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-meanFreq()-Y
+		Mean frequency of Body Acceleration             
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAcc-meanFreq()-Z
+		Mean frequency of Body Acceleration              
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-mean()-X 
+		Mean of Body Acceleration             
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-mean()-Y 
+		Mean of Body Acceleration      
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-mean()-Z
+		Mean of Body Acceleration
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-std()-X     
+		Body Acceleration
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-std()-Y 
+		Standard deviation of         
+		Body Acceleration
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-std()-Z 
+		Standard deviation of 
+		Body Acceleration
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-meanFreq()-X 
+		Mean frequency of 
+		Body Acceleration 
+		Float number representing a feature normalized and bounded within [-1,1] interval
+		
+fBodyAccJerk-meanFreq()-Y
+		Mean frequency of     
+		Body Acceleration 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccJerk-meanFreq()-Z  
+		Mean frequency of  
+		Body Acceleration 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-mean()-X  
+		Mean of    
+		Body Gyroskop 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-mean()-Y     
+		Mean of 
+		Body Gyroskop 
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-mean()-Z            
+		Value in Z axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-std()-X 
+		Standard deviation of            
+		Body Gyroskop 
+		Value in X axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-std()-Y     
+		Standard deviation
+		Body Gyroskop 
+		Value in Y axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-std()-Z 
+		Standard deviation
+		Body Gyroskop
+		Value in Z axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-meanFreq()-X   
+		Mean frequency of 
+		Body Gyroskop 
+		Value in X axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-meanFreq()-Y   
+		Mean frequency of 
+		Body Gyroskop
+		Value in Y axis		
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyGyro-meanFreq()-Z
+		Mean frequency of     
+		Body Gyroskop 
+		Value in Z axis
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccMag-mean() 
+		Mean of           
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccMag-std()   
+		Standard deviation of  
+		Acceleration Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyAccMag-meanFreq()  
+		Mean frequency of  
+		Acceleration Magnitude		
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyAccJerkMag-mean()  
+		Mean of  
+		Acceleration Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyAccJerkMag-std() 
+		Standard deviation of    
+		Acceleration Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyAccJerkMag-meanFreq()
+		Mean frequency of
+		Acceleration Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroMag-mean() 
+		Mean of Body body Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroMag-std()  
+		Standard deviation of Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroMag-meanFreq()   
+		Mean frequency of
+		Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroJerkMag-mean()   
+		Mean of
+		Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroJerkMag-std() 
+		Standard deviation of    
+		Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
+		
+fBodyBodyGyroJerkMag-meanFreq()
+		Mean frequency of
+		Gyroskop Magnitude
+		Float number representing a feature normalized and bounded within [-1,1] interval 
